@@ -1,0 +1,124 @@
+.container{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+h2, h3{
+    color: #0a21b4;
+}
+
+.container .form{
+    margin-bottom: 60px;
+}
+
+.container .form .input{
+    margin: 20px;
+}
+
+.container .form input{
+    text-align: center;
+    margin-left: 30px;
+    display: inline-block;
+
+}
+
+.container .form input:focus {
+    outline: 0;
+  }
+
+.container .form label{
+    color: rgb(77, 77, 122);
+    font-weight: bold;
+    display: inline-block;
+    width: 125px;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.container .buttons button{
+    outline: 0;
+    width: 120px;
+    padding: 12px;
+    margin: 3px;
+    background-color: #FFF;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 9px 0px #ccc;
+    -moz-box-shadow: 0px 0px 9px 0px #ccc;
+    box-shadow: 0px 0px 9px 0px #ccc;
+    cursor: pointer;
+}
+
+.container .result{
+    margin-top: 50px;
+}
+
+.container .result img{
+    padding: 10px;
+    width: 20%;
+    position: absolute;
+    left: 28%;
+    display: inline-block;
+    border: 2px solid #FFF;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 0px 20px 0px #ccc;
+    -moz-box-shadow: 5px 0px 20px 0px #ccc;
+    box-shadow: 5px 0px 20px 0px #ccc;
+}
+
+.container .result #label{
+    position: absolute;
+    left: 37%;
+    top: 108%;
+    color: rgb(75, 73, 107);
+    display: none;
+}
+
+.container .result div{
+    display: inline-block;
+    width: 0;
+    position: absolute;
+    left: 49.8%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+    height: 15px;
+}
+
+.container .result div span{
+    position: absolute;
+    left: 100%;
+    margin-top: -5px;
+    margin-left: 10px;
+}
+
+.container .result .business-card{
+    top: 109%;
+    background-image: linear-gradient(to right, rgb(156, 156, 156), #80b2d6 ); 
+    display: none;
+}
+
+.container .result .business-card span{
+    color: rgb(158, 157, 157);
+}
+
+.container .result .unlimited-rewards{
+    top: 123%;
+    background-image: linear-gradient(to right, #80b2d6, #80b2d6 );
+}
+
+.container .result .unlimited-rewards span{
+    color: rgb(102, 102, 102);
+}
+
+.container .result .lifetime-rewards{
+    top: 137%;
+    background-image: linear-gradient(to right, #258BD6, #258BD6 );
+}
+
+.container .result .lifetime-rewards span{
+    color: rgb(36, 35, 35);
+}
