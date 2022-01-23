@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layout/css/stylesheet.css">
+    <title>Financial Calculator Widget</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h2>Calculate your Rewards</h2>
+            <form action="">
+                <div class="input">
+                    <label for="vendor">Vendor/Bills</label>
+                    <input type="number" id="vendor" placeholder="Enter a number" />
+                </div>
+                <div class="input">
+                    <label for="media">Media/Ad Spend</label>
+                    <input type="number" id="media" placeholder="Enter a number" />
+                </div>
+                <div class="input">
+                    <label for="corp">Corp.Spend</label>
+                    <input type="number" id="corp" placeholder="Enter a number" />
+                </div>
+                <div class="input">
+                    <label for="team">Team Project</label>
+                    <input type="number" id="team" placeholder="Enter a number" />
+                </div>
+            </form>
+        </div>
+        <div class="buttons">
+            <h3>Compare your Rewards</h3>
+            <button value="Brex">Brex</button>
+            <button value="Stripe">Stripe</button>
+            <button value="Amex">Amex</button>
+        </div>
+        <div class="result">
+            <span id="label"></span>
+            <img src="layout/images/image.png" alt="Unlimited Rewards/LIFETIME REWARDS">
+            <div class="business-card">
+                <span>$0</span>
+            </div>
+            <div class="unlimited-rewards">
+                <span>$0</span>
+            </div>
+            <div class="lifetime-rewards">
+                <span>$0</span>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="layout/js/index.js"></script>
+</body>
+</html>
